@@ -115,6 +115,7 @@ a {
 
 .btn-hover:hover {
   background: var(--hover-orange);
+  transition: background 0.5s ease 0s;
 }
 
 .dark {
@@ -123,6 +124,7 @@ a {
 
 .navigation-card-hover:hover {
   background: var(--main-orange);
+  transition: background 0.5s ease 0s;
 }
 
 .mb-16 {
@@ -207,6 +209,7 @@ a {
 
 .navigation-card:nth-child(n+2):hover > * {
   color: var(--white);
+  transition: color 0.5s ease 0s;
 }
 
 .navigation-card:nth-child(n+4) {
