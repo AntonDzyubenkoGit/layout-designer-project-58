@@ -26,6 +26,7 @@ h2,
 h3 {
   font-family: "Neucha";
   line-height: 1.2em;
+  font-weight: normal;
   margin: 0;
   padding: 0;
 }
@@ -62,11 +63,12 @@ a {
 
 .bg-main::before {
   content: "";
-  position: absolute;
+  position: absolute;  
   background: url("/src/images/background.png") 0 0 / cover no-repeat;
   width: 100%;
   height: 100%;
   opacity: 0.1;
+  z-index: -1;
 }
 
 .text-box-row {
@@ -87,6 +89,8 @@ a {
 /*---HEADER-----------------------------------*/
 .header {
   position: relative;
+  background: var(--light);
+  z-index: -1;
 }
 
 .header-container {
@@ -100,7 +104,7 @@ a {
   top: 55px;
   right: -270px;
   height: 525px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header-link {
