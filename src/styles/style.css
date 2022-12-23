@@ -4,6 +4,7 @@
   --translucent-white: #d7ccc0;
   --light: #f5f4f0;
   --main-orange: #fe8a02;
+  --hover-orange: #ea7600;
   --main-dark: #42413c;
   --dark: #2a2626;
   --translucent-dark: #908d8b;
@@ -112,6 +113,18 @@ a {
   text-align: center;
 }
 
+.btn-hover:hover {
+  background: var(--hover-orange);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.navigation-card-hover:hover {
+  background: var(--main-orange);
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -190,6 +203,10 @@ a {
 .navigation-card {
   width: 350px;
   height: 323px;
+}
+
+.navigation-card:nth-child(n+2):hover > * {
+  color: var(--white);
 }
 
 .navigation-card:nth-child(n+4) {
