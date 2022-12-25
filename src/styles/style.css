@@ -398,6 +398,8 @@ a {
   padding: 38px 0px 40px 0px;
   margin-bottom: 76px;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-form {
