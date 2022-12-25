@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="wrapper">
+      
       <header class="header bg-main">
         <div class="header-container container ptb-100">
           <h1>Когнитивные<br>искажения<br/><span>в программировании</span></h1>
@@ -27,7 +28,7 @@
                 <p>
                   Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                 </p>
-                <a href="#navigation" data-goto=".section" class="header-link btn-hover">подробнее</a>
+                <a href="#navigation" class="header-link btn-hover">подробнее</a>
               </div>
           </div>
         </div>
@@ -49,27 +50,27 @@
             <div class="navigation-card">
               <h2 class="card-name">5 когнитивных искажений<br><span> о существовании которых стоит помнить</span></h2>
             </div>
-            <a href="#" class="navigation-card bg-white navigation-card-hover">
+            <a href="#ikea-effect" class="navigation-card bg-white navigation-card-hover">
               <div class="number">1</div>
               <h3 class="title ml-24 mb-16">Эффект ИКЕА</h3>
               <p class="ml-24 lh-160 dark">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </a>
-            <a href="#" class="navigation-card bg-white navigation-card-hover">
+            <a href="#premature-optimization" class="navigation-card bg-white navigation-card-hover">
               <div class="number">2</div>
               <h3 class="title ml-24 mb-16">Преждевременная оптимизация</h3>
               <p class="ml-24 lh-160 dark">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
             </a>
-            <a href="#" class="navigation-card bg-white navigation-card-hover">
+            <a href="#distortion-of-novelty" class="navigation-card bg-white navigation-card-hover">
               <div class="number">3</div>
               <h3 class="title ml-24 mb-16">Искажение новизны</h3>
               <p class="ml-24 lh-160 dark">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
             </a>
-            <a href="#" class="navigation-card bg-white navigation-card-hover">
+            <a href="#hyperbolic-depreciation" class="navigation-card bg-white navigation-card-hover">
               <div class="number">4</div>
               <h3 class="title ml-24 mb-16">Гиперболическое обесценивание</h3>
               <p class="ml-24 lh-160 dark">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
             </a>
-            <a href="#" class="navigation-card bg-white navigation-card-hover">
+            <a href="#errors-in-planning" class="navigation-card bg-white navigation-card-hover">
               <div class="number">5</div>
               <h3 class="title ml-24 mb-16">Ошибка планирования</h3>
               <p class="ml-24 lh-160 dark">Неправильно рассчитывать время необходимое для завершения задачи.</p>
@@ -77,7 +78,7 @@
           </div>
         </section>
 
-        <section class="ikea-effect bg-main light-bg">
+        <section class="ikea-effect bg-main light-bg" id="ikea-effect">
           <div class="container ptb-100">
             <div class="col-2 mb-100">
               <img src="./images/1.png" alt="ikea-effect image" class="mr-30 vertical">
@@ -99,7 +100,7 @@
           </div>
         </section>
 
-        <section class="premature-optimization bg-main brown-bg white">
+        <section class="premature-optimization bg-main brown-bg white" id="premature-optimization">
           <div class="container ptb-100">
             <div class="col-2 mb-100">
               <div class="text-block mr-30">
@@ -121,7 +122,7 @@
           </div>
         </section>
 
-        <section class="distortion-of-novelty bg-main light-bg">
+        <section class="distortion-of-novelty bg-main light-bg" id="distortion-of-novelty">
           <div class="container ptb-100">
             <div class="col-2 mb-100">
               <img src="./images/3.png" alt="ikea-effect image" class="mr-30 vertical">
@@ -143,7 +144,7 @@
           </div>
         </section>
 
-        <section class="hyperbolic-depreciation bg-main brown-bg white">
+        <section class="hyperbolic-depreciation bg-main brown-bg white" id="hyperbolic-depreciation">
           <div class="container ptb-100">
             <div class="col-2 mb-100">
               <div class="text-block mr-30">
@@ -165,7 +166,7 @@
           </div>
         </section>
 
-        <section class="errors-in-planning bg-main light-bg">
+        <section class="errors-in-planning bg-main light-bg" id="errors-in-planning">
           <div class="container ptb-100">
             <div class="col-2 mb-100">
               <img src="./images/5.png" alt="ikea-effect image" class="mr-30 vertical">
@@ -194,7 +195,24 @@
         
       </main>
 
-      <footer></footer>
+      <footer class="footer">
+        <div class="container ptb-100">
+          <div class="footer-box bg-main-dark col-2">
+            <h3 class="white ml-55">Хотите узнать больше? <br> Подпишитесь на обновления</h3>
+            <div class="form">
+              <p class="footer-title white fz-18">Электронная почта</p>
+              <div class="footer-form">
+                <input type="text" placeholder="Ваша электронная почта" class="form-input">
+                <a href="#" class="form-iput-image btn-hover"></a>
+              </div>
+              <p href="#" class="footer-text white fz-12">Подписываясь, вы принимаете <a href="#" class="white">правила сервиса</a></p>
+            </div>
+          </div>
+          <h4 class="text-align-center black open-sans mb-16">© 2020 Константин Константинопольский</h4>
+          <p class="text-align-center mb-16">По материалам статьи <a href="#" class="blue-deep">Yash Ranadive Cognitive Biases in Programming</a></p>
+          <p class="text-align-center"><a href="#" class="blue-deep">Курсы программирования Hexlet</a></p>
+        </div>
+      </footer>
       
     </div>
   </body>
