@@ -11,13 +11,13 @@
   --brown: #b09a81;
   --blue: #1085c5;
   --black: #000000;
-  --blue-deep: #007DC1;
+  --blue-deep: #007dc1;
 }
 
 body {
   width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0;  
 
   font-family: "Open Sans";
   font-size: 16px;
@@ -72,6 +72,10 @@ a {
 }
 
 /*---Common-Classes-----------------------------------*/
+.wrapper {
+  overflow: hidden;
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -416,7 +420,7 @@ a {
 }
 
 .form-iput-image::before {
-  content: '';
+  content: "";
   display: block;
   background: url("../images/send.svg") center no-repeat;
   width: 100%;
@@ -425,5 +429,4 @@ a {
 
 .footer-text a {
   text-decoration: underline;
-  
 }
