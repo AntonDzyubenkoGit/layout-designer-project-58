@@ -164,6 +164,10 @@ a {
   color: var(--white);
 }
 
+.brown {
+  color: var(--brown);
+}
+
 .navigation-card-hover:hover {
   background: var(--main-orange);
   transition: background 0.5s ease 0s;
@@ -209,6 +213,10 @@ a {
   font-size: 34px;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .col-2 {
   display: flex;
 }
@@ -228,10 +236,33 @@ a {
   z-index: -2;
 }
 
+.light-bg-small {
+  width: 100%;
+  background: var(--white);
+}
+
 .brown-bg {
+  width: 100%;
+  position: relative;
+}
+
+.brown-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--brown);
+  z-index: -2;
+}
+
+.brown-bg-small {
   width: 100%;
   background: var(--brown);
 }
+
+
 
 /*---HEADER-----------------------------------*/
 .header {
