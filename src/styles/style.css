@@ -82,6 +82,14 @@ a {
   margin: 0 auto;
 }
 
+.p-rem {
+  font-size: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .vertical {
   vertical-align: middle;
 }
@@ -444,6 +452,3 @@ a {
 }
 
 
-.p-rem {
-  font-size: 1.5rem;
-}
