@@ -381,11 +381,13 @@ a {
   width: 350px;
   height: 323px;
   padding: 24px;
+  background: var(--light);
 }
 
 .navigation-card:nth-child(1) {
   display: block;
   padding: 0 ;
+  background: none;
 } 
 
 .navigation-card:nth-child(5) .navigation-card-title {
