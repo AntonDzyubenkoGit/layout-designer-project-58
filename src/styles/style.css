@@ -103,7 +103,7 @@ a {
 }
 
 .pt-200 {
-  padding-top: 202px;
+  padding-top: 200px;
 }
 
 .pb-100 {
@@ -397,7 +397,7 @@ a {
   margin: 0 0 40px 24px;
   padding-top: 24px;
   font-size: 64px;
-  line-height: 1;
+  line-height: 70px;
   color: var(--main-dark);
 }
 
