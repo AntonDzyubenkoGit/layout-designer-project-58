@@ -377,9 +377,20 @@ a {
 }
 
 .navigation-card {
+  box-sizing: border-box;
   width: 350px;
   height: 323px;
+  padding: 24px;
 }
+
+.navigation-card:nth-child(1) {
+  display: block;
+  padding: 0 ;
+} 
+
+.navigation-card:nth-child(5) .navigation-card-title {
+  margin-bottom: 12px;
+} 
 
 .navigation-card:nth-child(n + 2):hover > * {
   color: var(--white);
@@ -400,13 +411,21 @@ a {
   color: var(--white);
 }
 
-.number {
-  margin: 0 0 37px 24px;
-  padding-top: 22px;
+.navigation-card-number {
+  margin-bottom: 40px;
   font-size: 64px;
   line-height: 70px;
   color: var(--main-dark);
   font-family: "Neucha";
+}
+
+.navigation-card-title {
+  font-family: "Neucha";
+  margin-bottom: 16px;
+}
+
+.navigation-card-title {
+  margin-bottom: 0px;
 }
 
 .text {
