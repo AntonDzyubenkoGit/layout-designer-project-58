@@ -10,20 +10,18 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --black: #000000;
+  --black: #000;
   --blue-deep: #007dc1;
 }
 
 body {
   width: 100%;
   padding: 0;
-  margin: 0;  
-
+  margin: 0;
   font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
-
   box-sizing: border-box;
 }
 
@@ -31,7 +29,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: 1.2em;
   font-weight: normal;
   margin: 0;
@@ -171,7 +169,7 @@ a {
 }
 
 .neucha {
-  font-family: "Neucha";
+  font-family: Neucha;
 }
 
 .open-sans {
@@ -386,13 +384,13 @@ a {
 
 .navigation-card:nth-child(1) {
   display: block;
-  padding: 0 ;
+  padding: 0;
   background: none;
-} 
+}
 
 .navigation-card:nth-child(5) .navigation-card-title {
   margin-bottom: 12px;
-} 
+}
 
 .navigation-card:nth-child(n + 2):hover > * {
   color: var(--white);
@@ -403,7 +401,7 @@ a {
 }
 
 .card-name {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 52px;
   line-height: 120%;
   color: var(--main-orange);
@@ -418,11 +416,11 @@ a {
   font-size: 64px;
   line-height: 70px;
   color: var(--main-dark);
-  font-family: "Neucha";
+  font-family: Neucha;
 }
 
 .navigation-card-title {
-  font-family: "Neucha";
+  font-family: Neucha;
   margin-bottom: 16px;
 }
 
@@ -441,7 +439,7 @@ a {
 
 .footer-box {
   gap: 122px;
-  padding: 38px 0px 40px 0px;
+  padding: 38px 0px 40px;
   margin-bottom: 76px;
   box-sizing: border-box;
   align-items: center;
@@ -488,7 +486,7 @@ a {
   position: relative;
 }
 
-.closure{
+.closure {
   position: absolute;
   transform: translate(-70%, 90%);
   bottom: 0;
@@ -496,7 +494,7 @@ a {
   width: 150px;
   height: 100px;
   z-index: 10;
-  background: #389EA4;
+  background: #389ea4;
 }
 
 .w-302 {
