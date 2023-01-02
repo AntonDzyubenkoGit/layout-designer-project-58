@@ -68,6 +68,7 @@ p,
 a {
   padding: 0;
   margin: 0;
+  font-weight: normal;
   text-decoration: none;
 }
 
@@ -129,6 +130,10 @@ a {
 
 .box-size {
   box-sizing: border-box;
+}
+
+.translucent-white {
+  color: var(--translucent-white);
 }
 
 .text-box-row {
@@ -436,4 +441,9 @@ a {
 
 .footer-text a {
   text-decoration: underline;
+}
+
+
+.text-block p {
+  font-size: 1.5rem;
 }
