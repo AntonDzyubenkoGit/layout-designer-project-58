@@ -409,6 +409,10 @@ a {
   font-family: "Neucha";
 }
 
+.text {
+  padding-top: 2px;
+}
+
 /*---FOOTER-----------------------------------*/
 .footer {
   box-sizing: border-box;
