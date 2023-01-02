@@ -206,6 +206,9 @@ a {
   transition: background 0.5s ease 0s;
 }
 
+.mb-14 {
+  margin-bottom: 14px;
+}
 .mb-16 {
   margin-bottom: 16px;
 }
