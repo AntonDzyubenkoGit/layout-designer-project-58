@@ -462,6 +462,17 @@ a {
   text-decoration: underline;
 }
 
-.ytp-impression-link {
-  opacity: 0;
+.relative {
+  position: relative;
+}
+
+.closure{
+  position: absolute;
+  transform: translate(-70%, 90%);
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 100px;
+  z-index: 10;
+  background: #389EA4;
 }
