@@ -18,7 +18,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -29,7 +29,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: normal;
   margin: 0;
@@ -70,7 +70,7 @@ a {
   text-decoration: none;
 }
 
-/*---Common-Classes-----------------------------------*/
+/* ---Common-Classes----------------------------------- */
 .wrapper {
   overflow: hidden;
 }
@@ -99,6 +99,7 @@ a {
 .ptb-100 {
   padding: 100px 0;
 }
+
 .ptb-100-110 {
   padding: 100px 0 110px;
 }
@@ -169,11 +170,11 @@ a {
 }
 
 .neucha {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 .open-sans {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .dark {
@@ -208,6 +209,7 @@ a {
 .mb-14 {
   margin-bottom: 14px;
 }
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -280,6 +282,7 @@ a {
   width: 100%;
   position: relative;
 }
+
 .light-bg::after {
   content: "";
   position: absolute;
@@ -317,12 +320,13 @@ a {
   background: var(--brown);
 }
 
-/*---HEADER-----------------------------------*/
+/* ---HEADER----------------------------------- */
 .header {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
+
 .header::after {
   content: "";
   position: absolute;
@@ -358,7 +362,7 @@ a {
   background: var(--main-orange);
 }
 
-/*---VIDEO-----------------------------------*/
+/* ---VIDEO----------------------------------- */
 .video {
   display: block;
   margin: 0 auto;
@@ -366,7 +370,7 @@ a {
   margin-bottom: -193px;
 }
 
-/*---NAVIGATION-----------------------------------*/
+/* ---NAVIGATION----------------------------------- */
 .navigation-card-row {
   display: flex;
   flex-wrap: wrap;
@@ -388,10 +392,6 @@ a {
   background: none;
 }
 
-.navigation-card:nth-child(5) .navigation-card-title {
-  margin-bottom: 12px;
-}
-
 .navigation-card:nth-child(n + 2):hover > * {
   color: var(--white);
 }
@@ -401,7 +401,7 @@ a {
 }
 
 .card-name {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 52px;
   line-height: 120%;
   color: var(--main-orange);
@@ -416,23 +416,23 @@ a {
   font-size: 64px;
   line-height: 70px;
   color: var(--main-dark);
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 .navigation-card-title {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   margin-bottom: 16px;
 }
 
-.navigation-card-title {
-  margin-bottom: 0px;
+.navigation-card:nth-child(5) .navigation-card-title {
+  margin-bottom: 12px;
 }
 
 .text {
   padding-top: 2px;
 }
 
-/*---FOOTER-----------------------------------*/
+/* ---FOOTER----------------------------------- */
 .footer {
   box-sizing: border-box;
 }
